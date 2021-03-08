@@ -1,4 +1,4 @@
-# InstaDoubleVerifyPhish
+# Instagram Bypass Double Verification 
 ### Description
 Python Code for Phishing Instagram with double verification
 
