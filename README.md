@@ -10,8 +10,9 @@ Usage of IDVP for attacking targets without prior mutual consent is illegal. It'
 # Requirements:
 1. Python3
 2. PHP
-3. Chromium Driver
-   Optional: Ngrok (Installed and configured with authtoken)
+3. Chromium Driver 
+
+Optional: Ngrok (Installed and configured with authtoken)
 
 # Usage:
 1. Download the Zip and Extract it (or) 
