@@ -11,11 +11,11 @@ Usage of IDVP for attacking targets without prior mutual consent is illegal. It'
 1. Python3
 2. PHP
 3. Chromium Driver
-Optional: Ngrok (Installed and configured with authtoken)
+   Optional: Ngrok (Installed and configured with authtoken)
 
 # Usage:
 1. Download the Zip and Extract it (or) 
-   git clone https://github.com/The-Robin-Hood/IDVP
+   git clone https://github.com/The-Robin-Hood/InstaDoubleVerifyPhish
 2. cd InstaDoubleVerifyPhish
 3. pip install selenium
 4. Windows : curl https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_win32.zip -o chromium.zip  
