@@ -38,4 +38,4 @@ Optional: Ngrok (Installed and configured with authtoken)
 - ./ngrok authtoken <your_token>
 
 # Screenshot:
-
+![WindowsTerminal_vNtNVm3nwL](https://user-images.githubusercontent.com/32297581/110362562-6df9b400-8067-11eb-91c2-4a9cb582aaed.png)
